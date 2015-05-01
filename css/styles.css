@@ -1,0 +1,105 @@
+@font-face {
+  font-family: '1980sWriter';
+  src: url('../fonts/1980sWriter.woff') format('woff');
+}
+
+a {
+  color:black;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+span.glyphicon {
+  font-size:4.0em;
+}
+
+.mainmenu {
+  color: black;
+  font-family: '1980sWriter';
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h5 {
+  color: #4acdfc;
+}
+
+body {
+  background-image: url("../img/photo.png");
+  background-size: cover;
+}
+
+.secondcontainer {
+  background-color: rgba(255, 153, 0, .9);
+  width: 700px;
+  height:175px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+}
+
+.secondcontainerphotos {
+  background-color: rgba(255, 153, 0, .9);
+  width: 300px;
+  height:600px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+}
+
+.thirdcontainer {
+  background-color: rgba(255, 153, 0, .9);
+  width: 300px;
+  height:6  00px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 7px 61px 5px rgba(0,0,0,0.75);
+}
+
+p {
+  padding: 0 0 1em;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0 0 0.4em;
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px;
+}
+
+.footer, .push {
+	height: 155px;
+  float: right;
+}
